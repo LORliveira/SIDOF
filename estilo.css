@@ -30,7 +30,6 @@ header {
 }
 
 #gov-logo {
-  margin-left: 200px;
   align-items: center;
   width: 5%;
   height: 43%;
@@ -48,6 +47,19 @@ header {
   justify-content: flex-start;
   flex-direction: row;
   color: #0c326f;
+  width: 70%;
+}
+
+.botao-index{
+  text-align: left;
+  border-left: 0px;
+  margin: 8px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  color: #0c326f;
+  text-decoration: none;
+  width:fit-content ;
 }
 
 footer{
