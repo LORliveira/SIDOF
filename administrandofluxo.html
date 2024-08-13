@@ -10,72 +10,81 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Julius+Sans+One&family=Martel:wght@200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <title>Administrando Fluxos</title>
 
 </head>
 
 <body>
     <header>
-      <img id="gov-logo" src="img/header/govbr-logo.png" />
-      <a id="govbr" href="https://www.gov.br">Governo Federal</a>
-      <a class="botao-index" href="index.html">Index</a>
+        <img id="gov-logo" src="img/header/govbr-logo.png" />
+        <a id="govbr" href="https://www.gov.br">Governo Federal</a>
+        <a class="botao-index" href="index.html">Index</a>
     </header>
-    
-    <div class="container">
+
+    <div class="admin-container">
         <h1>Administrando Fluxos</h1>
         <p class="pfora">O Administrador do Sistema é o responsável pela criação, edição e exclusão dos fluxos.</p>
 
-        <h3 class="subtitulo-tramite">Listar Fluxos Cadastrados</h3>
+        <h3 id="tramite">1. Listar Fluxos Cadastrados</h3>
 
-        <section id="section">
-            <div><img class="imgadminfluxos1" src="img/adminfluxos/listarFluxos 1.png"></div>
-            <p class="psection1">
+        <section class="subsection">
+            <div><img class="imgadminfluxos" src="img/adminfluxos/listarFluxos 1.png"></div>
+            <p id="section">
                 Após clicar nas opções descritas acima, uma tela será apresentada para inserção do
                 texto, insira o texto e
                 clique no botão "Salvar e Fechar".
                 Para encaminnhar o documento para assinatura do Ministro e/ou Jurídico clique no botão "Encaminhar".
-                <b>Quando:</b>Ao verificar a existência de um novo documento na lista de Atividades a Executar.
+                <br /> Quando: <br /> Ao verificar a existência de um novo documento na lista de Atividades a Executar.
             </p>
         </section>
 
-        <h3 class="subtitulo-tramite">Criar Novo Fluxos</h3>
+        <h3 id="tramite">2. Criar Novo Fluxos</h3>
         <p class="pfora">Para criar um fluxo, deve-se clicar na opção "Novo Fluxo ". Em seguida, o sistema
             apresentará a seguinte tela:
         </p>
 
-        <section id="section">
-            <div><img class="imgadminfluxos2" src="img/adminfluxos/incluirFluxo 1.png"></div><br>
-            <p> Os campos a serem preenchidos são:
-                <br>- Nome;
-                <br>- Descrição;
-                <br>- Lista de transições que compõem o fluxo, mostrando: Origem, Ação, Destino e Condições.
-
-                <br> <br>É possível excluir cada item da lista (ver item 4).
+        <section class="subsection">
+            <div><img class="imgadminfluxos" src="img/adminfluxos/incluirFluxo 1.png"></div><br>
+            <p> Os campos a serem preenchidos são: </p>
+            <ul>
+                <li>Nome;</li>
+                <li>Descrição;</li>
+                <li>Lista de transições que compõem o fluxo, mostrando: Origem, Ação, Destino e Condições.</li>
+            </ul>
+            <p>É possível excluir cada item da lista (ver item 4).
                 <br>São disponibilizadas opções de pesquisa e exibição dos itens da lista:
-
-                <br><br>Transições: Classificar por:
-                <br> - Fluxo Origem,
-                <br> - Etapa Origem,
-                <br> - Estado Inicial,
-                <br> - Ação,
-                <br> - Fluxo Destino,
-                <br> - Etapa Destino,
-                <br> - Estado Final;
-                <br>- Transições: Pesquisar por Origem - selecionar Estado e Etapa a serem pesquisados;
-                <br>- Transições: Pesquisar por Ação - selecionar Ação a ser pesquisada;
-                <br>- Transições: Pesquisar por Destino - selecionar Estado, Etapa e Fluxo a serem pesquisados.
-
-                <br> <br>A opção "Nova Transição" permite criar uma transição no fluxo (ver item 3).
-                Para gravar o novo fluxo, deve-se selecionar a opção "Salvar Fluxo ". Caso não deseje gravar o
-                novo fluxo, selecionar "Cancelar".
+            </p>
+            <p>Transições - Classificar por:</p>
+            <ul>
+                <li>Fluxo Origem,</li>
+                <li>Etapa Origem,</li>
+                <li>Estado Inicial,</li>
+                <li>Ação,</li>
+                <li>Fluxo Destino,</li>
+                <li>Etapa Destino,</li>
+                <li>Estado Final;</li>
+            </ul>
+            <p>Pesquisar por:</p>
+            <ul>
+                <li>Origem - selecionar Estado e Etapa a serem pesquisados;</li>
+                <li>Ação - selecionar Ação a ser pesquisada;</li>
+                <li>Destino - selecionar Estado, Etapa e Fluxo a serem pesquisados.</li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <p>A opção "Nova Transição" permite criar uma transição no fluxo (ver item 3).
+            Para gravar o novo fluxo, deve-se selecionar a opção "Salvar Fluxo ". Caso não deseje gravar o
+            novo fluxo, selecionar "Cancelar".
             </p>
         </section>
 
-        <h3 class="subtitulo-tramite">3. Criar Nova Transição</h3>
+        <h3 id="tramite">3. Criar Nova Transição</h3>
         <p class="pfora">Para criar uma transição, deve-se clicar na opção "Nova transição". Em seguida, o
             sistema apresentará a seguinte tela:
         </p>
-        <section id="section">
-            <div><img class="imgadminfluxos3" src="img/adminfluxos/incluirTransicao 1.png"></div>
+        <section class="subsection">
+            <div><img class="imgadminfluxos" src="img/adminfluxos/incluirTransicao 1.png"></div>
             <p>O campo "Fluxo Origem" já vem preenchido.
                 <br>- Os campos a serem preenchidos são:
                 <br>- Etapa origem - selecionar uma das etapas cadastradas;
@@ -101,24 +110,24 @@
             </p>
         </section>
 
-        <h3 class="subtitulo-tramite">4. Excluir Transição</h3>
+        <h3 id="tramite">4. Excluir Transição</h3>
         <p class="pfora">Deve-se clicar no ícone [ X ] na lista de transições. O sistema apresentará a
             seguinte tela:
         </p>
-        <section id="section">
-            <div><img class="imgadminfluxos4" src="img/adminfluxos/excluirTransicao-confirmar 1.png">
+        <section class="subsection">
+            <div><img class="imgadminfluxos" src="img/adminfluxos/excluirTransicao-confirmar 1.png">
             </div>
             <p>Para excluir a transição, selecionar "Confirmar". Para desistir da exclusão, selecionar
                 "Cancelar"..</p>
         </section>
 
-        <h3 class="subtitulo-tramite">5. Editar um fluxo Cadastrado</h3>
+        <h3 id="tramite">5. Editar um fluxo Cadastrado</h3>
         <p class="pfora">Deve-se clicar no ícone [ ] na lista de fluxos. O sistema apresentará a
             seguinte tela:
         </p>
 
-        <section id="section">
-            <div><img class="imgadminfluxos5" src="img/adminfluxos/image 7.png"></div>
+        <section class="subsection">
+            <div><img class="imgadminfluxos" src="img/adminfluxos/image 7.png"></div>
             <p><br>São disponibilizados os campos:
                 <br>Nome;
                 <br>Descrição;
@@ -147,13 +156,13 @@
             </p>
         </section>
 
-        <h3 class="subtitulo-tramite">6. Excluir Fluxos</h3>
+        <h3 id="tramite">6. Excluir Fluxos</h3>
         <p class="pfora">Deve-se clicar no ícone [ X ] na lista de fluxos. O sistema apresentará
             a seguinte tela:
         </p>
 
-        <section id="section">
-            <div><img class="imgadminfluxos6" src="img/adminfluxos/image 9.png"></div>
+        <section class="subsection">
+            <div><img class="imgadminfluxos" src="img/adminfluxos/image 9.png"></div>
             <p>Para excluir o fluxo, selecionar "Confirmar". Para desistir da exclusão,
                 selecionar "Cancelar".</p>
         </section>
