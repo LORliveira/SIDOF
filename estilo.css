@@ -567,3 +567,39 @@ li{
   font-family: "Martel", serif;
   text-align: justify;
 }
+
+/*Sistema SIDOF*/
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.texto-posicao{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-direction: column;
+  text-decoration: none;
+  text-align: justify;
+}
+
+table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            display: flex;
+        }
+        td{
+          border-bottom: 1px solid black;
+        }
+        table, th{
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        tr{
+          display: flex;
+          flex-direction: row;
+        }
