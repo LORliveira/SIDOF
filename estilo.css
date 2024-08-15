@@ -588,12 +588,14 @@ table {
             border-collapse: collapse;
             margin: 20px 0;
             display: flex;
+            border-radius: 15px;
         }
         td{
-          border-bottom: 1px solid black;
+          border-bottom: 1px solid #DBE1F1;
+
         }
         table, th{
-            border: 1px solid black;
+            border: 10px solid #DBE1F1;
         }
         th, td {
             padding: 8px;
@@ -603,3 +605,21 @@ table {
           display: flex;
           flex-direction: row;
         }
+#td1{
+  padding-bottom: 29px;
+}
+#td2{
+  padding-bottom: 68px;
+}#td3{
+  padding-bottom: 148px;
+}#td4{
+  padding-bottom: 48px;
+}#td5{
+  padding-bottom: 88px;
+}
+#td6{
+  padding-bottom: 48px;
+}
+#td7{
+  padding-bottom: 48px;
+}
