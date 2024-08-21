@@ -29,24 +29,6 @@ header {
   position: sticky;
 }
 
-Footer{
-  width: 100%;
-  background-color: #0c326f;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-} 
-footer p{
-  justify-content: flex-start;
-  flex-direction: row;
-  width: 100%;
-  color: #fff;
-  padding-bottom: 0.5%;
-  padding-left: 2%;
-  font-weight: bolder;
-  font-size:xx-large;
-  margin-block-start: 0.5em;
-}
 /*Index*/
 #gov-logo {
   align-items: center;
@@ -85,8 +67,7 @@ footer{
   width: 100%;
   background-color: #0c326f;
   display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
+  align-items: flex-start;
 }
 
 
@@ -653,4 +634,13 @@ table {
 }
 #td7{
   padding-bottom: 48px;
+}
+
+#sub-titulo  {
+  font-family: "Inter", sans-serif;
+  color: #0c326f;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  font-weight: normal;
 }
